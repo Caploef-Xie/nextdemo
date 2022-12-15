@@ -11,6 +11,10 @@ const nextConfig = {
       '/contracts': { page: '/contracts' },
     }
   },
+  images: {
+    loader: 'imgix',
+    path: '/',
+  },
 }
 
 module.exports = nextConfig
